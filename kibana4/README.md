@@ -11,6 +11,6 @@ This project makes it easy to test Kibana4 with CJOC. If you run `docker-compose
 
 Kibana 4 is already configured to talk to the Elasticsearch. You must take these additional steps after running docker-compose up:
 
-# Configure Elasticseasrch on CJOC to use External Elasticsearches located at `http://${docker machine ip}:5601`
-# Add the two client masters to CJOC
-# At this point, you should start seeing metrics on the 'Performance' tab in CJOC.
+1. Configure Elasticseasrch on CJOC to use External Elasticsearches located at `http://${docker machine ip}:5601`
+2. Add the two client masters to CJOC
+3. At this point, you should start seeing metrics on the 'Performance' tab in CJOC.
