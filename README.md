@@ -15,7 +15,7 @@ integrations with other Linux-based services (LDAP comes to mind).
 Getting Started
 ----
 
-1. Install [Docker Engine](https://www.docker.com/docker-engine) if you
+1. Install [Docker Toolbox](https://www.docker.com/toolbox) if you
   are on Windows or OS X. This will install docker-machine,
   docker-compose & docker. A working docker-compose is the real
   requirement here.
